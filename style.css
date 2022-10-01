@@ -1,0 +1,230 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+[class*="col-"]{
+    float:left;
+    padding:10px;
+}
+[class*="col-"]{
+    width:100%;
+}
+
+/* header starts from here */
+header{
+    background-color: #4267B2;
+}
+.container{
+    text-align: center;
+    padding-top: 10px;
+}
+.logo-area{
+    margin-bottom: 10px;
+}
+.logo-area p{
+    color:white;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.login-area{
+    color:white;
+}
+.login-area label{
+    display: block;
+    margin: 5px;
+}
+.login-area .password a{
+    color:white;
+    text-decoration: none;
+    font-size: 1rem; 
+}
+.login-area .password a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.login-area input[type="text"],
+.login-area input[type="password"]{
+    border: solid 1px black;
+    font-size: 14px;
+    font-weight: 300;
+    padding: 3px 5px;
+    margin-bottom: 10px;
+}
+.login-area input[type="submit"]{
+    background-color: #4267b2;
+    border: 1px solid #29487d;
+    color: #fff;
+    padding: 3px 8px;
+    font-weight: 400;
+    margin-top: 23px;
+    margin-bottom: 10px;
+}
+
+header::after{
+    content:'';
+    clear: both;
+    display: block;
+}
+/* header ends here */
+
+/* main starts from here */
+main{
+    background: linear-gradient(#ffffff, #D4D9E9);
+    padding: 20px 10px;
+}
+.left-area p{
+    width:80%;
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+}
+.left-area img{
+    width:320px;
+    height:280px;
+    margin: 20px 0;
+    margin-left: 20px;
+    
+}
+.right-area h2{
+    font-size: 1.7rem;
+   margin-bottom: 7px;
+}
+.right-area h4{
+    font-size: 1rem;
+    margin: 15px 0;
+}
+.right-area input[type="text"],
+.right-area input[type="password"]{
+    width: 90%;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-size: 1rem;
+    padding:5px 0;
+    margin:5px 0;
+    text-align: center;
+}
+.right-area .fullName .firstName{
+    width:43%;
+    float:left;
+    margin-right: 4%;
+    
+}
+.right-area .fullName .surName{
+    width:43%;
+    float:left;
+    
+}
+.birthday{
+    overflow: hidden;
+}
+.birthday h2{
+    font-size: 1.7rem;
+    margin: 10px 0;
+}
+.birth-date{
+    float:left;
+    margin-right: 10px;
+    
+}
+.birth-date select{
+    height:40px;
+    max-width:70px;
+}
+.birth-link{
+    float:left;
+    max-width:190px;
+}
+.birth-link a{
+    text-decoration: none;
+    font-size: 1rem;
+    line-height: 1.2;
+    color: #365899;
+}
+.birth-link a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.gender{
+    margin:15px 0;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.gender input{
+    margin-right: 5px;
+}
+.text-box{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.text-box p{
+    font-size: 1rem;
+    color: #777;
+    width:70%;
+}
+.text-box a{
+    color: #365899;
+    text-decoration: none;
+}
+.text-box a:hover{
+    text-decoration: underline;
+}
+.btn{
+    margin-bottom: 40px;
+}
+.btn input{
+    background:linear-gradient(#67ae55, #578843);
+    width:190px;
+    height: 40px;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: center;
+    box-shadow: inset 0 1px 1px #a4e388;
+    border-color: #3b6e22 #3b6e22 #2c5115;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 5px;
+    transition: 0.3sec;
+}
+.btn input:hover{
+    cursor: pointer;
+    background:linear-gradient(#578843, #67ae55);
+}
+.page{
+    font-size: 1rem;
+    color: #666;
+}
+.page a{
+    text-decoration: none;
+    color: #365899;
+    font-weight: 600;
+
+}
+.page a:hover{
+    text-decoration: underline;
+}
+
+main::after{
+    content:'';
+    clear: both;
+    display: block;
+}
+/* main main here */
+
+/* footer starts from here */
+.footer{
+    background-color: black;
+    padding: 30px;
+}
+.footer p{
+    color:whitesmoke;
+    font-size: 1rem;
+    text-align: center;
+
+}
+.footer::after{
+    content: '';
+    clear: both;
+    display: block;
+}
+/* footer ends here */
